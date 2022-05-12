@@ -1,0 +1,37 @@
+.chatBlock{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f2f5;
+    /* border: 1px solid black; */
+    
+}
+.chatBlock__info > p{
+    margin: 0;
+    font-size: 13px;
+}
+.chatBlock__info > h4{
+    margin: 0;
+}
+
+.chatBlock__info{
+    /* flex: 1; */
+    margin-left: 8px;
+    /* border: 1px solid black; */
+
+}
+.chatBlock:hover{
+    background-color: #f0f2f5;
+    cursor: pointer;
+}
+.sidebarChat:hover{
+    background-color: #f0f2f5;
+    cursor: pointer;
+
+}
+.sidebarChat{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
